@@ -3,7 +3,7 @@
 
 > Because the world will never have enough console-based RPG battle sims!
 
-We did a segment in class in which we made an RPG-lite battle sim, and it made me think. I've made a thousand of these things over the years--who hasn't, right? But this is the first one I've ever done in JavaScript, so I was trying out some new things. JSON reference files, for one thing. Those are amazing! I wanted to make the basic module extensible, so I added external file support for several different areas of the game. Pretty cool. I still want to add JSON support for external narration files so the battle narrations don't get so stale.
+We did a segment in class in which we made an RPG-lite battle sim, and it made me think. I've made a thousand of these things over the years--who hasn't, right? But this is the first one I've ever done in JavaScript, so I was trying out some new things. JSON reference files, for one thing. Those are amazing! I wanted to make the basic module extensible, so I added external file support for several different areas of the game. Pretty cool. I still want to add JSON support for external narration files so the battle narrations don't get so stale.\
 The system underlying this is a variation on the rules for Basic Roleplaying by Chaosium, Inc., used in their iconic Call of Cthulu RPG. You can find their SRD here: 
 [BRP SRD Homepage](https://www.chaosium.com/brp-system-reference-document/)
 
@@ -40,9 +40,9 @@ THEN I can do it without having to interact with the code
 
 
 ## Technologies
-JavaScript;
-Node.js;
-BRD System Reference Document;
+JavaScript\
+Node.js\
+BRD System Reference Document\
 
 
 ## Getting Started
