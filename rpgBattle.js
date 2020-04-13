@@ -36,9 +36,9 @@ function battleContenders(contender1, contender2) {
     chB.armour = new armours.Armour("Leather Plate", armours.ArmourType.HIDE);
     chB.pronouns = new pronounz.Pronouns("she", "her", "her");
 
-    chA.currentHP = 0;
-    chB.currentHP = 0;
-    
+    // chA.currentHP = 0;                           //  for test purposes only
+    // chB.currentHP = 0;
+
     console.log("And now... for a taste of things to come!");
 
     contender1.printStats();
