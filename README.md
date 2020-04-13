@@ -42,7 +42,7 @@ THEN I can do it without having to interact with the code
 ## Technologies
 JavaScript\
 Node.js\
-BRD System Reference Document\
+BRD System Reference Document
 
 
 ## Getting Started
