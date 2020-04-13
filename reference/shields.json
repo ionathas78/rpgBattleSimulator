@@ -1,0 +1,48 @@
+{
+    "buckler": {
+        "target": {
+            "name": "Target Shield",
+            "type": "buckler",
+            "bonus": 5,
+            "damage": 2,
+            "hp": 12,
+            "weight": 1
+        }    
+    },
+    "small": {
+        "heater": {
+            "name": "Heater Shield",
+            "type": "small",
+            "bonus": 15,
+            "damage": 3,
+            "hp": 12,
+            "weight": 2
+        },
+        "kite": {
+            "name": "Kite Shield",
+            "type": "small",
+            "bonus": 15,
+            "damage": 4,
+            "hp": 16,
+            "weight": 2.5
+        },
+        "round": {
+            "name": "Round Shield",
+            "type": "small",
+            "bonus": 15,
+            "damage": 3,
+            "hp": 12,
+            "weight": 2
+        }    
+    },
+    "large": {
+        "hoplite": {
+            "name": "Hoplite",
+            "type": "large",
+            "bonus": 25,
+            "damage": 4,
+            "hp": 16,
+            "weight": 3
+        }    
+    }
+}

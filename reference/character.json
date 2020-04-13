@@ -1,0 +1,89 @@
+{
+    "characters": {
+        "kilik": {
+            "name": "Kilik",
+            "job": "squire",
+            "age": 21,
+            "pronouns": { "subj": "he", "obj": "him", "possAdj": "his", "possPron": "his"},
+            "strength": 13,
+            "size": 14,
+            "dexterity": 15,
+            "constitution": 12,
+            "melee": 50,
+            "ranged":25,
+            "dodge": 30,
+            "parry": 55,
+            "hp": 16,
+            "weapon": {
+                "name": "Bo",
+                "type": "melee",
+                "attackMod": 10,
+                "damage": 8,
+                "damageMod": 0,
+                "ap": 3,
+                "damageType": "bruise",
+                "hands": 2,
+                "hp": 18,
+                "weight": 1.5,
+                "usesStrMod": 2,
+                "weaponSpecialty": "staff"
+            },
+            "shield": null,
+            "armour": {
+                "name": "Heavy Clothing",
+                "type": "cloth",
+                "dr": 1,
+                "hp": 5,
+                "skillMod": 0,
+                "weight": 1,
+                "covers": []
+            }
+        },
+        "sophitia": {
+            "name": "Sophitia",
+            "job": "squire",
+            "age": 18,
+            "pronouns": { "subj": "she", "obj": "her", "possAdj": "her", "possPron": "hers"},
+            "strength": 15,
+            "size": 10,
+            "dexterity": 15,
+            "constitution": 14,
+            "melee": 55,
+            "ranged": 20,
+            "dodge": 25,
+            "parry": 50,
+            "hp": 16,
+            "weapon": {
+                "name": "Broad Sword",
+                "type": "melee",
+                "attackMod": 0,
+                "damage": 8,
+                "damageMod": 1,
+                "ap": 0,
+                "damageType": "cut",
+                "hands": 1,
+                "hp": 15,
+                "weight": 1.5,
+                "usesStrMod": 2,
+                "weaponSpecialty": "sword"
+            },
+            "shield": {
+                "name": "Round Shield",
+                "type": "small",
+                "bonus": 15,
+                "damage": 3,
+                "hp": 12,
+                "weight": 2
+            },
+            "armour": {
+                "name": "Hard Leather",
+                "type": "hide",
+                "dr": 3,
+                "hp": 20,
+                "skillMod": -10,
+                "weight": 3,
+                "covers": []
+            }
+        }
+    }
+}

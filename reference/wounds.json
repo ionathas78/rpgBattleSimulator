@@ -1,0 +1,393 @@
+{
+    "locations": {
+        "head": {
+            "minor": [
+                {"name": "cheek", "type": "skin"},
+                {"name": "jaw", "type": "bone"},
+                {"name": "lip", "type": "skin"},
+                {"name": "brow", "type": "bone"}
+            ],
+            "light": [
+                {"name": "nose", "type": "organ"},
+                {"name": "ear", "type": "organ"},                
+                {"name": "scalp", "type": "skin"},
+                {"name": "tongue", "type": "organ"}
+            ],
+            "moderate": [
+                {"name": "skull", "type": "bone"},                
+                {"name": "temple", "type": "skin"},
+                {"name": "tooth", "type": "bone"}
+            ],
+            "serious": [
+                {"name": "eye", "type": "organ"},                
+                {"name": "throat", "type": "skin"},
+                {"name": "crown", "type": "bone"}
+            ],
+            "critical": [
+                {"name": "brain", "type": "organ"},
+                {"name": "esophagus", "type": "organ"},
+                {"name": "windpipe", "type": "organ"},
+                {"name": "carotid artery", "type": "blood"},
+                {"name": "jugular", "type": "blood"},
+                {"name": "cervical spine", "type": "nerve"}
+            ]
+        },
+        "body": {
+            "minor": [
+                {"name": "side", "type": "skin"},
+                {"name": "chest", "type": "skin"},
+                {"name": "breastbone", "type": "bone"}
+            ],
+            "light": [
+                {"name": "shoulder", "type": "joint"},
+                {"name": "shoulder bone", "type": "skin"},
+                {"name": "collar", "type": "bone"}                
+            ],
+            "moderate": [
+                {"name": "rub", "type": "bone"},                
+                {"name": "throat", "type": "skin"},
+                {"name": "deltoid", "type": "muscle"},
+                {"name": "pectoral", "type": "muscle"}
+            ],
+            "serious": [
+                {"name": "lung", "type": "organ"},
+                {"name": "spine", "type": "bone"}
+            ],
+            "critical": [
+                {"name": "heart", "type": "organ"},
+                {"name": "carotid artery", "type": "blood"},
+                {"name": "vertebra", "type": "bone"}
+            ]
+        },
+        "arm": {
+            "minor": [
+                {"name": "forearm", "type": "skin"},                
+                {"name": "upper arm", "type": "skin"},
+                {"name": "fingernail", "type": "bone"},
+                {"name": "knuckle", "type": "joint"}
+            ],
+            "light": [
+                {"name": "hand", "type": "skin"},                
+                {"name": "elbow", "type": "joint"},                
+                {"name": "wrist", "type": "joint"},
+                {"name": "bicep", "type": "muscle"},
+                {"name": "tricep", "type": "muscle"}
+            ],
+            "moderate": [
+                {"name": "shoulder", "type": "joint"},
+                {"name": "finger", "type": "bone"},
+                {"name": "thumb", "type": "bone"},
+                {"name": "ulna", "type": "bone"}
+            ],
+            "serious": [
+                {"name": "radius", "type": "bone"}                
+            ],
+            "critical": [
+                {"name": "humerus", "type": "bone"},
+                {"name": "brachial artery", "type": "blood"},
+                {"name": "radial nerve", "type": "nerve"},
+                {"name": "brachial nerve", "type": "nerve"}                
+            ]
+        },
+        "vitals": {
+            "minor": [
+                {"name": "back", "type": "skin"},
+                {"name": "side", "type": "skin"},
+                {"name": "hip", "type": "bone"}
+            ],
+            "light": [
+                {"name": "abdomen", "type": "skin"},
+                {"name": "abs", "type": "muscle"}
+            ],
+            "moderate": [
+                {"name": "rib", "type": "bone"},
+                {"name": "pelvis", "type": "bone"}
+            ],
+            "serious": [
+                {"name": "stomach", "type": "organ"},
+                {"name": "liver", "type": "organ"},
+                {"name": "spine", "type": "bone"},
+                {"name": "groin", "type": "organ"}
+            ],
+            "critical": [
+                {"name": "kidney", "type": "organ"},
+                {"name": "vertebra", "type": "bone"},
+                {"name": "diaphragm", "type": "organ"},
+                {"name": "intestines", "type": "organ"}
+            ]
+        },
+        "leg": {
+            "minor": [
+                {"name": "thigh", "type": "skin"},                
+                {"name": "calf", "type": "skin"},
+                {"name": "toenail", "type": "bone"}
+            ],
+            "light": [
+                {"name": "ankle", "type": "joint"},
+                {"name": "foot", "type": "skin"},
+                {"name": "hip", "type": "bone"},
+                {"name": "heel", "type": "bone"}
+            ],
+            "moderate": [
+                {"name": "tibia", "type": "bone"},
+                {"name": "toe", "type": "bone"}
+            ],
+            "serious": [
+                {"name": "femur", "type": "bone"},
+                {"name": "fibula", "type": "bone"}
+            ],
+            "critical": [
+                {"name": "femoral artery", "type": "blood"},
+                {"name": "peroneal artery", "type": "blood"},
+                {"name": "sciatic nerves", "type": "nerve"}
+            ]
+        }
+    },
+    "injuries": {
+        "bruise": {            
+            "minor": [
+                "battered",
+                "bruised",
+                "bumped",
+                "clobbered",
+                "scraped",
+                "thumped"
+            ],
+            "light": [
+                "bashed",
+                "battered",
+                "bruised",
+                "clobbered",
+                "knocked",
+                "smashed",
+                "thumped",
+                "whacked"
+            ],
+            "moderate": [
+                "bashed",
+                "bruised",
+                "contused",
+                "cracked",
+                "smashed",
+                "swollen",
+                "whacked"
+            ],
+            "serious": [
+                "bashed",
+                "bruised",
+                "contused",
+                "cracked",
+                "crushed",
+                "ruined",
+                "swollen"
+            ],
+            "critical": [
+                "bruised",
+                "cracked",
+                "crushed",
+                "ruined",
+                "shattered",
+                "swollen"
+            ]
+        },
+        "chop": {            
+            "minor": [
+                "bashed",
+                "chopped",
+                "clipped",
+                "clobbered",
+                "cut",
+                "nicked",
+                "sliced",
+                "squashed",
+                "walloped"
+            ],
+            "light": [
+                "bashed",
+                "bludgeoned",
+                "chopped",
+                "crushed",
+                "slashed",
+                "sliced",
+                "smashed"
+            ],
+            "moderate": [
+                "bludgeoned",
+                "carved",
+                "chopped",
+                "cracked",
+                "crushed",
+                "gashed",
+                "hacked",
+                "pulverized",
+                "slashed"
+            ],
+            "serious": [
+                "broken",
+                "chopped",
+                "cloven",
+                "carved",
+                "cracked",
+                "crushed",
+                "gashed",
+                "hacked",
+                "hewn",
+                "pulverized"
+            ],
+            "critical": [
+                "broken",
+                "chopped",
+                "cloven",
+                "crushed",
+                "gashed",
+                "hacked",
+                "hewn",
+                "severed",
+                "shattered"
+            ]
+        },
+        "crush": {            
+            "minor": [
+                "bashed",
+                "beaten",
+                "bruised",
+                "clipped",
+                "crunched",
+                "crushed",
+                "mashed",
+                "rattled",
+                "squashed"
+            ],
+            "light": [
+                "bashed",
+                "beaten",
+                "bludgeoned",
+                "crushed",
+                "mashed",
+                "pounded",
+                "smashed"
+            ],
+            "moderate": [
+                "bludgeoned",
+                "crushed",
+                "fractured",
+                "pulverized",
+                "smashed"
+            ],
+            "serious": [
+                "bludgeoned",
+                "broken",
+                "burst",
+                "crushed",
+                "fractured",
+                "snapped",
+                "pulped",
+                "pulverized"
+            ],
+            "critical": [
+                "broken",
+                "crushed",
+                "destroyed",
+                "pulverized",
+                "ruined",
+                "shattered",
+                "snapped"
+            ]
+        },
+        "cut": {            
+            "minor": [
+                "cut",
+                "nicked",
+                "shaved",
+                "snipped",
+                "sliced",
+                "slit"
+            ],
+            "light": [
+                "cut",
+                "lacerated",
+                "rent",
+                "slashed",
+                "sliced",
+                "snipped"
+            ],
+            "moderate": [
+                "cut",
+                "carved",
+                "chopped",
+                "gashed",
+                "hacked",
+                "hewn",
+                "lacerated",
+                "rent",
+                "ripped",
+                "sawed",
+                "scythed",
+                "slashed"
+            ],
+            "serious": [
+                "carved",
+                "cloven",
+                "cut",
+                "gashed",
+                "hacked",
+                "hewn",
+                "rent",
+                "ripped",
+                "sawed",
+                "scythed",
+                "slashed"
+            ],
+            "critical": [
+                "amputated",
+                "bisected",
+                "cloven",
+                "cut",
+                "removed",
+                "severed"
+            ]
+        },
+        "stab": {            
+            "minor": [
+                "jabbed",
+                "nicked",
+                "pricked",
+                "punctured",
+                "stabbed",
+                "stuck"
+            ],
+            "light": [
+                "jabbed",
+                "knifed",
+                "lanced",
+                "pierced",
+                "punctured",
+                "stabbed"
+            ],
+            "moderate": [
+                "knifed",
+                "lanced",
+                "pierced",
+                "punctured",
+                "shanked",
+                "speared",
+                "stabbed"
+            ],
+            "serious": [
+                "gored",
+                "pierced",
+                "punctured",
+                "shanked",
+                "speared",
+                "stabbed"
+            ],
+            "critical": [
+                "gored",
+                "punctured",
+                "run through",
+                "speared",
+                "stabbed"
+            ]
+        }
+    }
+}
