@@ -30,12 +30,15 @@ function battleContenders(contender1, contender2) {
     chA.shield = new shields.Shield("None", shields.ShieldType.NONE);
     chA.armour = new armours.Armour("Clothes", armours.ArmourType.CLOTH);
     chA.pronouns = new pronounz.Pronouns("he", "him", "his");
-
+    
     chB.weapon = new weapons.Weapon("Broad Sword", weapons.WeaponType.MELEE, 0, 8, 1, woundz.DamageType.CUT, 0, 1, 1, weapons.WeaponStrMod.FULL);
     chB.shield = new shields.Shield("Steel Shield", shields.ShieldType.SMALL);
     chB.armour = new armours.Armour("Leather Plate", armours.ArmourType.HIDE);
     chB.pronouns = new pronounz.Pronouns("she", "her", "her");
 
+    chA.currentHP = 0;
+    chB.currentHP = 0;
+    
     console.log("And now... for a taste of things to come!");
 
     contender1.printStats();

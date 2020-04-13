@@ -22,6 +22,19 @@ const WoundList = function() {
         this.wounds.forEach(element => totalPenalty += element.damage + element.woundMod);
         return totalPenalty;
     };
+
+    this.toString = (separator = ", ") => {
+        let returnString = "";
+        if (this.wounds) {
+            this.wounds.forEach(element => {
+                if (returnString != "") {
+                    returnString += separator;
+                };
+                returnString += element.description;
+            });
+        };
+        return returnString;
+    };    
 };
 
 WoundList.prototype.addWound = function (hitLocation = "", damage = 0, dmgType = woundz.DamageType.UNDEFINED, desc = "",
@@ -38,19 +51,6 @@ WoundList.prototype.addRandomWound = function(damage, dmgType = woundz.DamageTyp
 
 WoundList.prototype.heal = function (days = 1) {
     this.wounds.forEach(element => element.heal(days));   
-};
-
-WoundList.prototype.toString = () => {
-    let returnString = "";
-    if (this.wounds) {
-        this.wounds.forEach(element => {
-            if (returnString != "") {
-                returnString += ", ";
-            };
-            returnString += element.description;
-        });
-    };
-    return returnString;
 };
 
 module.exports = { WoundList };

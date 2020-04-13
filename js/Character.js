@@ -114,7 +114,7 @@ const Character = function (characterName = "", characterJobClass = JobType.SQUI
     };
     this.printCondition = function() {
         let myTotalWounds = this.wounds.totalWounds();
-        let woundsList = this.wounds.toString();
+        let woundsList = this.wounds.toString("\n            ");
 
         let msgReport =
         `
@@ -365,6 +365,10 @@ Character.prototype.attack = function (target) {
     };
 
     let circumstanceModifier = 0;
+    if (target.isStunned()) {
+        circumstanceModifier = 20;
+    };
+
     let attackDamage = 0;
     let attackResult = this.attackRoll(this.weapon, circumstanceModifier);
     let isCritical = (attackResult == SkillResult.CRITICAL);
