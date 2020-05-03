@@ -20,7 +20,8 @@ GIVEN THAT the program runs in the console
 WHEN I look at the modules in the program
 THEN I see logical, ordered structure following an OOP model
 WHEN I observe two elements interacting in the process
-THEN I see separate and encapsulated pieces that handle their own processes with well-defined scope, independent of other elements
+THEN I see separate and encapsulated pieces that handle their own processes with well-defined scope,
+independent of other elements
 WHEN I need to add non-rule content to the game
 THEN I can do it without having to interact with the code
 ```
